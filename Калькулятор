@@ -1,0 +1,10 @@
+a = {0, 1, 2, 3, 5, 7}
+b = {0, 1, 2, 4, 6, 8}
+obed = a.union(b)
+print(obed, "- Объединение")
+peresech = a.intersection(b)
+print(peresech, "- Пересечение")
+razn = a.difference(b)
+print(razn, "- Разность")
+symrazn = a.symmetric_difference(b)
+print (symrazn, "- Симметрическая разность")
